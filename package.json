@@ -9,6 +9,6 @@
     "nadesiko3": "^3.7.8"
   },
   "scripts": {
-    "test": "cnako3 fizzbuzz.test.nako3"
+    "test": "RESULT=$(cnako3 fizzbuzz.test.nako3) && echo \"$RESULT\" && ! echo \"$RESULT\" | grep -q 'AssertionError'"
   }
 }
