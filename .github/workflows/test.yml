@@ -13,6 +13,7 @@ defaults:
 
 jobs:
   test:
+    name: ユニットテストの実行
     runs-on: ubuntu-latest
 
     steps:
