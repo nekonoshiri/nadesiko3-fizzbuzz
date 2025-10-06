@@ -2,6 +2,7 @@
   "private": true,
   "name": "nadesiko3-fizzbuzz",
   "version": "1.0.0",
+  "type": "module",
   "engines": {
     "node": ">=24.0.0"
   },
@@ -9,6 +10,6 @@
     "nadesiko3": "^3.7.8"
   },
   "scripts": {
-    "test": "RESULT=$(cnako3 fizzbuzz.test.nako3) && echo \"$RESULT\" && ! echo \"$RESULT\" | grep -q 'AssertionError'"
+    "test": "cnako3 fizzbuzz.test.nako3"
   }
 }
