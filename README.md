@@ -9,7 +9,7 @@
 ### GitHub から直接取り込む
 
 ```nako3
-!「https://raw.githubusercontent.com/nekonoshiri/nadesiko3-fizzbuzz/refs/tags/v1.0.0/fizzbuzz.nako3」を取り込む。
+!「https://raw.githubusercontent.com/nekonoshiri/nadesiko3-fizzbuzz/refs/tags/v1.0.1/fizzbuzz.nako3」を取り込む。
 
 Xを1から15まで繰り返す
 　　XのFizzBuzzを表示。
