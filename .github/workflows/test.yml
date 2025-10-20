@@ -15,6 +15,7 @@ jobs:
   test:
     name: ユニットテストの実行
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: リポジトリのチェックアウト
